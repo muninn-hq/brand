@@ -4,15 +4,15 @@
 
 | Role | Name | Hex |
 |---|---|---|
-| Primary Background | Obsidian Night | `#090D16` |
-| Surface / Card | Slate | `#111827` |
-| Primary Accent | Electric Cyan | `#38BDF8` |
-| Secondary Accent | Deep Violet | `#6366F1` |
-| Primary Text | Ivory | `#F1F5F9` |
-| Muted Text | Muted Slate | `#94A3B8` |
+| Primary Dark | Black | `#000000` |
+| Primary Light | White | `#FFFFFF` |
+| Subtle Border | Charcoal | `#262626` |
+| Muted Text | Neutral Gray | `#A3A3A3` |
 
 ## Assets
 
-- [`assets/muninn-mark.svg`](assets/muninn-mark.svg) — 512×512 abstract mark on dark background.
-- [`assets/muninn-mark-transparent.svg`](assets/muninn-mark-transparent.svg) — 512×512 abstract mark with transparent background.
-- [`assets/muninn-banner.svg`](assets/muninn-banner.svg) — 1280×320 organization profile banner.
+- [`assets/muninn-mark.svg`](assets/muninn-mark.svg) — 512×512 geometric mark (white on black).
+- [`assets/muninn-mark.png`](assets/muninn-mark.png) — 512×512 PNG avatar export (ready for GitHub org profile upload).
+- [`assets/muninn-mark-light.svg`](assets/muninn-mark-light.svg) — 512×512 geometric mark (black on white).
+- [`assets/muninn-mark-transparent.svg`](assets/muninn-mark-transparent.svg) — 512×512 geometric mark (black on transparent).
+- [`assets/muninn-banner.svg`](assets/muninn-banner.svg) — 1280×320 monochrome organization profile banner.

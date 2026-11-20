@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Muninn Geometric Mark (Light)">
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+  <g fill="#000000">
+    <!-- Left geometric wing -->
+    <polygon points="112,128 240,256 240,346 176,282 176,384 112,384"/>
+    <!-- Right geometric wing -->
+    <polygon points="400,128 272,256 272,346 336,282 336,384 400,384"/>
+    <!-- Center memory diamond -->
+    <polygon points="256,128 305,177 256,226 207,177"/>
+  </g>
+</svg>

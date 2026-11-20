@@ -1,44 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Muninn Labs Banner">
-  <defs>
-    <linearGradient id="banner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060911"/>
-      <stop offset="55%" stop-color="#090D16"/>
-      <stop offset="100%" stop-color="#111827"/>
-    </linearGradient>
-    <radialGradient id="pulse-glow" cx="76%" cy="45%" r="48%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.20"/>
-      <stop offset="55%" stop-color="#6366F1" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#090D16" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="banner-wing" x1="15%" y1="10%" x2="85%" y2="90%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="60%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#4F46E5"/>
-    </linearGradient>
-  </defs>
+  <rect width="1280" height="320" rx="16" fill="#000000"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="318.5" rx="15.25" fill="none" stroke="#262626" stroke-width="1.5"/>
 
-  <rect width="1280" height="320" rx="20" fill="url(#banner-bg)"/>
-  <rect width="1280" height="320" rx="20" fill="url(#pulse-glow)"/>
-
-  <!-- Subtle lattice grid dots -->
-  <circle cx="160" cy="60" r="1.5" fill="#F1F5F9" opacity="0.4"/>
-  <circle cx="310" cy="260" r="1.5" fill="#38BDF8" opacity="0.45"/>
-  <circle cx="620" cy="48" r="2" fill="#F1F5F9" opacity="0.35"/>
-  <circle cx="880" cy="272" r="1.5" fill="#818CF8" opacity="0.45"/>
-  <circle cx="1090" cy="72" r="2" fill="#38BDF8" opacity="0.4"/>
-  <circle cx="1175" cy="228" r="1.5" fill="#F1F5F9" opacity="0.35"/>
-
-  <!-- Emblem -->
-  <g transform="translate(104, 56)">
-    <circle cx="104" cy="104" r="96" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="5 8"/>
-    <path d="M 38 148 L 88 40 L 132 84 L 172 52 L 139 152 L 98 114 Z" fill="url(#banner-wing)"/>
-    <line x1="88" y1="40" x2="172" y2="52" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.5"/>
-    <circle cx="88" cy="40" r="5.5" fill="#F1F5F9"/>
-    <circle cx="172" cy="52" r="7" fill="#38BDF8"/>
-    <circle cx="132" cy="84" r="4.5" fill="#818CF8"/>
+  <!-- Geometric Muninn mark (scaled 0.45x from 512x512, centered vertically) -->
+  <g transform="translate(88, 45) scale(0.45)" fill="#FFFFFF">
+    <polygon points="112,128 240,256 240,346 176,282 176,384 112,384"/>
+    <polygon points="400,128 272,256 272,346 336,282 336,384 400,384"/>
+    <polygon points="256,128 305,177 256,226 207,177"/>
   </g>
 
+  <!-- Subtle vertical divider -->
+  <line x1="328" y1="104" x2="328" y2="216" stroke="#262626" stroke-width="1.5"/>
+
   <!-- Wordmark & Tagline -->
-  <text x="352" y="156" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="68" font-weight="700" letter-spacing="-1.5" fill="#F1F5F9">Muninn Labs</text>
-  <text x="356" y="206" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400" letter-spacing="0.3" fill="#94A3B8">Memory infrastructure for agentic AI and privacy-first knowledge systems.</text>
+  <text x="388" y="158" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="-1.8" fill="#FFFFFF">Muninn Labs</text>
+  <text x="390" y="204" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" letter-spacing="0.2" fill="#A3A3A3">Memory infrastructure for agentic AI and privacy-first knowledge systems.</text>
 </svg>
