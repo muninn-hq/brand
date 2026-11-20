@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Muninn Abstract Mark (Transparent)">
+  <defs>
+    <linearGradient id="wing-left" x1="10%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="wing-right" x1="90%" y1="15%" x2="15%" y2="85%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left abstract wing / M-fold -->
+  <path d="M 116 352 C 122 224, 174 148, 256 124 C 214 176, 198 232, 224 294 L 170 352 Z"
+        fill="url(#wing-left)"/>
+
+  <!-- Right abstract wing / interlocking fold -->
+  <path d="M 396 352 C 390 224, 338 148, 256 124 C 298 176, 314 232, 288 294 L 342 352 Z"
+        fill="url(#wing-right)" opacity="0.92"/>
+
+  <!-- Core memory node -->
+  <circle cx="256" cy="264" r="14" fill="#38BDF8"/>
+  <circle cx="256" cy="264" r="6" fill="#F1F5F9"/>
+</svg>

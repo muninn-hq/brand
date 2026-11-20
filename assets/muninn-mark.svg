@@ -1,27 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Muninn Labs Mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Muninn Abstract Mark">
   <defs>
-    <linearGradient id="muninn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090D16"/>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="muninn-wing" x1="15%" y1="10%" x2="85%" y2="90%">
+    <radialGradient id="core-glow" cx="50%" cy="46%" r="42%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#6366F1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#060911" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wing-left" x1="10%" y1="15%" x2="85%" y2="85%">
       <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="55%" stop-color="#6366F1"/>
-      <stop offset="100%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="wing-right" x1="90%" y1="15%" x2="15%" y2="85%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4338CA"/>
     </linearGradient>
   </defs>
 
-  <rect width="512" height="512" rx="112" fill="url(#muninn-bg)"/>
+  <!-- Card background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)"/>
+  <rect width="512" height="512" rx="112" fill="url(#core-glow)"/>
 
-  <!-- Memory ring -->
-  <circle cx="256" cy="256" r="168" fill="none" stroke="#1E293B" stroke-width="2" stroke-dasharray="6 10"/>
+  <!-- Subtle outer orbital ring -->
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#1E293B" stroke-width="1.5"/>
 
-  <!-- Geometric raven wing / folded memory glyph -->
-  <path d="M 140 332 L 228 144 L 304 220 L 372 164 L 316 340 L 244 274 Z" fill="url(#muninn-wing)"/>
+  <!-- Left abstract wing / M-fold -->
+  <path d="M 116 352 C 122 224, 174 148, 256 124 C 214 176, 198 232, 224 294 L 170 352 Z"
+        fill="url(#wing-left)"/>
 
-  <!-- Memory lattice nodes -->
-  <line x1="228" y1="144" x2="372" y2="164" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.45"/>
-  <circle cx="228" cy="144" r="9" fill="#F1F5F9"/>
-  <circle cx="372" cy="164" r="11" fill="#38BDF8"/>
-  <circle cx="304" cy="220" r="7" fill="#818CF8"/>
+  <!-- Right abstract wing / interlocking fold -->
+  <path d="M 396 352 C 390 224, 338 148, 256 124 C 298 176, 314 232, 288 294 L 342 352 Z"
+        fill="url(#wing-right)" opacity="0.92"/>
+
+  <!-- Central abstract memory-prism / negative-space bridge -->
+  <path d="M 256 196 L 296 268 L 256 348 L 216 268 Z"
+        fill="#090D16" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.45"/>
+
+  <!-- Core memory node -->
+  <circle cx="256" cy="264" r="14" fill="#38BDF8"/>
+  <circle cx="256" cy="264" r="6" fill="#F1F5F9"/>
 </svg>

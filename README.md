@@ -13,5 +13,6 @@
 
 ## Assets
 
-- [`assets/muninn-mark.svg`](assets/muninn-mark.svg) — 512×512 square avatar/mark.
+- [`assets/muninn-mark.svg`](assets/muninn-mark.svg) — 512×512 abstract mark on dark background.
+- [`assets/muninn-mark-transparent.svg`](assets/muninn-mark-transparent.svg) — 512×512 abstract mark with transparent background.
 - [`assets/muninn-banner.svg`](assets/muninn-banner.svg) — 1280×320 organization profile banner.
